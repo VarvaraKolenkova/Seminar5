@@ -8,7 +8,6 @@ int[] GetArrayRandom(int size)
     }
     return array;
 }
-
 void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
@@ -16,7 +15,6 @@ void PrintArray(int[] array)
         Console.Write(array[i] + " ");
     }
 }
-
 int EvenNumbersCount(int[] array)
 {
     int count = 0;
